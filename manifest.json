@@ -1,0 +1,33 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "background.js" ]
+      }
+   },
+   "manifest_version": 2,
+   "name": "Balanza Digital",
+   "description": "Lector de balanza digital USB.",
+   "version": "0.0.1",
+   "icons": {
+      "256": "icon.png"
+   },
+   "permissions": [ "storage", "hid", {
+      "usbDevices": [ {
+         "name": "DYMO Endicia 75lb Digital Scale",
+         "productId": 27256,
+         "vendorId": 5190
+      }, {
+         "name": "DYMO Endicia 25lb Digital Scale",
+         "productId": 32772,
+         "vendorId": 2338
+      }, {
+         "name": "DYMO Endicia 10lb Digital Scale",
+         "productId": 32771,
+         "vendorId": 2338
+      }, {
+         "name": "DYMO 100lb Digital Scale",
+         "productId": 32777,
+         "vendorId": 2338
+      } ]
+   } ]
+}

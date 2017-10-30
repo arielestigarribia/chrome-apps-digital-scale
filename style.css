@@ -1,0 +1,36 @@
+body {
+  padding: 10px 0px 10px 5px;
+}
+
+.label {
+  margin-top: 2px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.label:first-child {
+  margin-top: 0;
+}
+
+.label-data {
+  margin-top: 5px;
+  /*font-weight: bold;*/
+  font-size: 18px;
+}
+
+input[type="text"] {
+  padding: 5px;
+  font-size: 15px;
+  float: left
+}
+
+input[type="button"] {
+  border: 0px;
+  font-size: 12px;
+  margin-top: 10px;
+  padding: 8px;
+}
+
+.footer {
+  font-size: 11px
+}
